@@ -20,7 +20,7 @@ export const HttpRequestNode = memo ((props: NodeProps<HttpRequestNodeType>)=>{
     const [dialogOpen,setDialogOpen] = useState(false);
     const {setNodes} = useReactFlow();
 
-    const nodeStatus = "initial";
+    const nodeStatus = "success";
 
     type HttpRequestNodeType = Node<HttpRequestNodeData>;
 
