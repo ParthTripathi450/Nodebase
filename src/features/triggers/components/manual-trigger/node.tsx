@@ -15,6 +15,7 @@ export const ManualTriggerNode = memo ((props: NodeProps) => {
             <ManualTriggerDialog 
                 open={dialogOpen} 
                 onOpenChange={setDialogOpen}
+                // gvrgv
             />
             <BaseTriggerNode
                 {...props}

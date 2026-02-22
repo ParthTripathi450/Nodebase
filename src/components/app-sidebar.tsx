@@ -63,7 +63,7 @@ export const AppSidebar = () => {
                         <Link href="/" prefetch>
                             <Image src="/logos/logo.svg" alt="Nodebase" width={30} height={30} />
                             <span className="font-semibold text-sm">
-                                Nodebase
+                                Flowgen
                                 </span>
                         </Link>
                     </SidebarMenuButton>
